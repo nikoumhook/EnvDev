@@ -49,6 +49,8 @@ services:
     extends: 
         file: services/${DB}.yml
         service: db
+    ports:
+        - ${DB_PORT}:3306
   
   # Database admin
   dbadmin:

@@ -3,3 +3,5 @@ projects/*
 !projects/index.php
 conf/apache/vhosts/*
 conf/nginx/vhosts/*
+
+\.idea/
